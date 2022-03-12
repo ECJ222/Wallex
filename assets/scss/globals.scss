@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('~/assets/fonts/Montserrat-regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('~/assets/fonts/Gilroy-medium.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('~/assets/fonts/Gilroy-regular.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('~/assets/fonts/Gilroy-bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('~/assets/fonts/Gilroy-bolder.ttf') format('truetype');
+  font-weight: bold;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: normal;
+  font-kerning: normal;
+  -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.fadeIn {
+  animation: fadeIn 300ms;
+}
+
+.fadeInLeft {
+  animation: fadeInLeft 300ms;
+}
